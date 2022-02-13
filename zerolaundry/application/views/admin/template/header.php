@@ -17,7 +17,7 @@
 	    <link rel="stylesheet" href="assets/materialize/css/materialize.min.css" media="screen,projection" />
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-    <title><?= $this->session->userdata('role') ?> | <?= $data['judul'] ?></title>
+    <title><?= $data['judul'] ?> | <?= $this->session->userdata('role') ?></title>
     </head>
     <body>
         <script src="https://kit.fontawesome.com/5fb17c664a.js" crossorigin="anonymous"></script>

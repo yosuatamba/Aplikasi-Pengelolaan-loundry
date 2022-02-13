@@ -4,7 +4,7 @@
         <!-- footer -->
         <div class="container-fluid">
                 <footer>
-                    <p class="text-center text-muted"><b></b> Full Made by <b>&copy; ADNY Corporation.</b></p>
+                    <p class="text-center text-muted"><b>&copy;</b> Full Made by <b>ADNY Corporation.</b></p>
                 </footer>
             </div>
         </div>

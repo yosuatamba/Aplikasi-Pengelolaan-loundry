@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="<?= base_url('assets/img/logo-light-head.png'); ?>">
         <link rel="stylesheet" href="<?=base_url('assets/css/bootstrap.min.css'); ?>">
-    <title>Form Login | CodeIgniter</title>
+    <title>Masuk | ZeroLaundry</title>
 </head>
 <body>
 
@@ -15,7 +15,7 @@
             <div class="text-center">
                 
             <img class="mb-4" src="assets/img/logo-dark.png" alt="" width="70%" />
-            <h3 class="card-title text-center">SIGN IN</h3>
+            <h3 class="card-title text-center">Masuk</h3>
             </div>
             <?php 
     

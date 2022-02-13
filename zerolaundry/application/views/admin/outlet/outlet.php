@@ -27,7 +27,7 @@
           <tr>
             <td class="center"><?= $o->id_outlet; ?></td>
             <td><?= $o->nama_outlet; ?></td>
-            <td><?= $o->alamat; ?></td>
+            <td maxlength="10"><?= $o->alamat; ?></td>
             <td><?= $o->tlp; ?></td>
             <td class="text-center">
             <a href="<?= base_url().'admin/outlet/ubah/'.$o->id_outlet; ?>" class="btn btn-warning btn-sm">Ubah</a>

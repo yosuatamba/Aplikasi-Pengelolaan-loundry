@@ -18,7 +18,7 @@
 									</div>
 									<div class="input-field col s6">
 									    <input id="tlp" type="number" class="validate" name="tlp" autocomplete="off" required>
-								        <label for="tlp" class="black-text">Telephone</label>
+								        <label for="tlp" class="black-text">Telepon</label>
 									</div>
 								</div>
 							</div>

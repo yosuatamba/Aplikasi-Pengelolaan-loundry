@@ -33,7 +33,7 @@ class Pelanggan extends CI_Controller{
             $config['base_url'] = base_url() . 'admin/pelanggan/index';
             $config['total_rows'] = $total_rows;
             $config['per_page'] = $limit_per_page;
-            $config['uri_segemnt'] = 3;
+            $config['uri_segemnt'] = 5;
             // Membuat Style pagination untuk BootStrap
             $config['next_link'] = 'Selanjutnya';
             $config['prev_link'] = 'Sebelumnya';
