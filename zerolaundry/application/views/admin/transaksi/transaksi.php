@@ -31,10 +31,10 @@
             <tr>
                 <th scope="col"class="center">Id Transaksi</th>
                 <th scope="col"class="center">Id Outlet</th>
-                <th scope="col"class="center">Id Pelanggan</th>
                 <th scope="col">Kode Invoice</th>
                 <th scope="col">Nama Member</th>
                 <th scope="col">Tanggal Masuk</th>
+                <th scope="col">Tanggal Bayar</th>
                 <th scope="col">Status</th>
                 </tr>
             </thead>
@@ -45,10 +45,10 @@
                 <tr>
                         <td class="center"><?= $t->id; ?></td>
                         <td class="center"><?= $t->id_outlet; ?></td>
-                        <td class="center"><?= $t->id_member; ?></td>
                         <td><?= $t->kode_invoice; ?></td>
                         <td><?= $t->nama_member; ?></td>
                         <td><?= $t->tgl; ?></td>
+                        <td><?= $t->tgl_bayar; ?></td>
                         <td class="fw-bold
                             <?php
                                 if( $t->status == 'baru'){echo "red-text";}

@@ -44,6 +44,7 @@
                 <th scope="col">Kode Invoice</th>
                 <th scope="col">Nama Member</th>
                 <th scope="col">Tanggal Masuk</th>
+                <th scope="col">Tanggal Bayar</th>
                 <th scope="col">Status</th>
                 </tr>
             </thead>
@@ -59,6 +60,7 @@
                         <td><?= $t->kode_invoice; ?></td>
                         <td><?= $t->nama; ?></td>
                         <td><?= $t->tgl; ?></td>
+                        <td><?= $t->tgl_bayar; ?></td>
                         <td class="fw-bold
                             <?php
                                 if( $t->status == 'baru'){echo "red-text";}

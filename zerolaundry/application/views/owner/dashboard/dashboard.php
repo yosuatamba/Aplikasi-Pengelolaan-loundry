@@ -79,6 +79,7 @@
                 <th scope="col" class="center">ID Pelanggan</th>
                 <th scope="col">Kode Invoice</th>
                 <th scope="col">Nama</th>
+                <th scope="col">Tanggal Masuk</th>
                 <th scope="col">Tanggal Bayar</th>
                 <th scope="col">Biaya</th>
                 </tr>
@@ -95,6 +96,7 @@
                         <td class="center"><?= $t->id_member; ?></td>
                         <td><?= $t->kode_invoice; ?></td>
                         <td><?= $t->nama_member; ?></td>
+                        <td><?= $t->tgl; ?></td>
                         <td><?= $t->tgl_bayar; ?></td>
                         <td><?= $t->total_harga; ?></td>
                     </tr>

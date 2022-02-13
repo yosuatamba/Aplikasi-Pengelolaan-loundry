@@ -83,11 +83,11 @@
             <td class="right"><?= $data_transaksi[0]->diskon ?>%</td>
         </tr>
         <tr class="line">
-            <td>Nama Paket</td>
+            <td>Harga Paket</td>
             <td class="right"><?= $data_transaksi[0]->harga ?></td>
         </tr>
         <tr class="">
-            <td><b>Total Total Harga</b></td>
+            <td><b>Total Harga</b></td>
             <td class="right"><b>Rp <?= $data_transaksi[0]->total_harga ?></b></td>
         </tr>
 	</table>
